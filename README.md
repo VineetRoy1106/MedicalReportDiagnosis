@@ -1,8 +1,12 @@
 # 🏥 Medical Report Diagnosis
 
-![YouTube Thumbnail](/assets/thumbnail.png)
 
-This is the **FastAPI-based backend** for the **Medical Diagnosis Application**, which provides authentication, PDF report upload, AI-powered medical diagnosis using LLaMA 3 via Groq API, and stores metadata in MongoDB with Pinecone for vector storage.
+
+Medical Report Analysis & LLM-Powered Insights System
+
+FastAPI, MongoDB, Pinecone, Groq/LLaMA 3, PDF Processing, RAG
+
+Built an end-to-end AI application that processes medical PDFs, extracts structured text, generates clinical summaries, and retrieves relevant medical insights using a RAG pipeline. Implemented secure role-based authentication (patient/doctor), vector-based search with Pinecone, and LLaMA-3 inference via Groq API. Designed robust backend APIs, document ingestion pipeline, and database storage for user data and reports.
 
 ---
 
@@ -155,17 +159,3 @@ API will be available at: **[http://127.0.0.1:8000](http://127.0.0.1:8000)**
 - ✅ **Offline PDF Processing Mode**
 
 ---
-
-## 📜 License
-
-This project is licensed under the **MIT License**.
-
----
-
-## 📬 Contact
-
-For any queries, feel free to connect:
-
-- **Author:** \[Supratim Nag]
-- **Email:** [snsupratim@gmail.com](mailto:snsupratim@gmail.com)
-- **YouTube:** [sn dev](https://www.youtube.com/@sn-develpoment)
