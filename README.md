@@ -6,7 +6,13 @@ Medical Report Analysis & LLM-Powered Insights System
 
 FastAPI, MongoDB, Pinecone, Groq/LLaMA 3, PDF Processing, RAG
 
-Built an end-to-end AI application that processes medical PDFs, extracts structured text, generates clinical summaries, and retrieves relevant medical insights using a RAG pipeline. Implemented secure role-based authentication (patient/doctor), vector-based search with Pinecone, and LLaMA-3 inference via Groq API. Designed robust backend APIs, document ingestion pipeline, and database storage for user data and reports.
+This project is an AI-powered medical report analysis system that extracts, summarizes, and diagnoses clinical PDFs using LLM-based inference.
+
+It features role-based access control, allowing Patients, Doctors, and Admins to securely upload, review, and validate medical reports.
+
+A RAG pipeline with Pinecone enables precise retrieval from embedded medical text for accurate diagnosis insights.
+
+The system uses FastAPI, secure authentication, and scalable document processing to deliver end-to-end intelligent healthcare report management.
 
 ---
 
